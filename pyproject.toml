@@ -1,0 +1,11 @@
+#extra
+
+[project]
+name="Pygbm"
+description="A Python package that contains a function to simulate the Geometric Brownian motion."
+readme="README.md"
+requires-python=">=3.9"
+dependencies=["numpy"]
+version = "0.1.4" 
+[project.scripts]
+pygbm = "pygbm.cli:main"
