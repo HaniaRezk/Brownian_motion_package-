@@ -1,10 +1,9 @@
 import numpy as np
+from .base_pygm import Simulator
 
-class GBMSimulator:
+class GBMSimulator(Simulator):
     def __init__(self,y,mu,sigma):
-        self.y=y
-        self.mu=mu
-        self.sigma=sigma
+        super().__init__(y,mu,sigma)
 
 
     def simulate_path(self,T,N):
