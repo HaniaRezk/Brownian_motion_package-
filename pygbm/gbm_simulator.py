@@ -1,6 +1,8 @@
 import numpy as np
 from .base_pygm import Simulator
 
+##change to see tags
+
 class GBMSimulator(Simulator):
     def __init__(self,y,mu,sigma):
         super().__init__(y,mu,sigma)

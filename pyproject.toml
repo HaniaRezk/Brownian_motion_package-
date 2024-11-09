@@ -9,3 +9,13 @@ dependencies=["numpy"]
 version = "0.1.4" 
 [project.scripts]
 pygbm = "pygbm.cli:main"
+
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+# Optional: specify additional configuration if needed
+version_scheme = "post-release"  # Version format: 1.2.3.devX+gHASH
+local_scheme = "no-local-version"
+write_to = "pygbm/version.py" 
