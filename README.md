@@ -1,13 +1,17 @@
 #Pygbm
- A Python package that contains a function to simulate the Geometric Brownian motion.
+
+A Python package that contains a function to simulate the Geometric Brownian motion.
  
- ##Features
+##Features
 Two classes: one main called Simulator and a daughter class called GMBsimulator
  
- ##Installation
- run pip install -e . from inside the package folder
+##Installation
+
+To install the package, run the following command from inside the package folder:
+```bash
+pip install -e .
+```
  
- ##Author
- Hania Rezk
- 
-Author=Haniarezk
+##Author
+Hania Rezk
+
